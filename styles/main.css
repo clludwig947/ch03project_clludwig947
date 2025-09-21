@@ -1,0 +1,46 @@
+/* Background color of the nav */
+nav {
+    background-color: #ff0000;
+    padding: 0.5rem 1rem;
+}
+
+nav li {
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* Hover state for list items */
+nav li:hover {
+    background-color: rgba(35, 55, 186, 0.12);
+}
+
+/* Style the nav links */
+nav a {
+    color: #fff1c4; 
+    text-decoration: none;
+    font-weight: 700; 
+    display: block;
+    padding: 0.4rem 0.75rem;
+}
+/* Table styles */
+td, th {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse; /* makes borders cleaner */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #5d5454;
+  color: white; /* optional so text shows up on dark background */
+}
+
+.border-image {
+    
+    border: 3px solid #333;   
+    border-radius: 8px;       
+    padding: 4px;  
+    width: 250px;
+    height: 250px;           
+}
